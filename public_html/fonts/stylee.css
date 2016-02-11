@@ -1,0 +1,44 @@
+@font-face {
+	font-family: 'aimdroix';
+	src:url('aimdroix.eot?ih2mce');
+	src:url('aimdroix.eot?ih2mce#iefix') format('embedded-opentype'),
+		url('aimdroix.ttf?ih2mce') format('truetype'),
+		url('aimdroix.woff?ih2mce') format('woff'),
+		url('aimdroix.svg?ih2mce#aimdroix') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="iconn-"], [class*=" iconn-"] {
+	font-family: 'aimdroix';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.iconn-airplanemode_active:before {
+	content: "\e091";
+}
+.iconn-aircraft:before {
+	content: "\e900";
+}
+.iconn-facebook-with-circle:before {
+	content: "\e901";
+}
+.iconn-instagram-with-circle:before {
+	content: "\e902";
+}
+.iconn-twitter-with-circle:before {
+	content: "\e903";
+}
+.iconn-youtube-with-circle:before {
+	content: "\e904";
+}
+

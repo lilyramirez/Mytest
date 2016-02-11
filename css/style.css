@@ -1,0 +1,777 @@
+html,body{
+	background: #FBFAFA;
+	color: #232525;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	position: relative;
+}
+p{
+	color: #8E8888;
+}
+
+/*Container*/
+#container{
+	text-align: center;
+	width: 75%;
+	display: inline-block;
+	vertical-align: top;
+}
+	#container article{
+		width: 48%;
+		display: inline-block;
+		vertical-align: top;
+		margin: 0 auto;
+		border-bottom: 2px solid #6A716A;
+		transition: 0.8s all ease;
+		min-height: 500px;
+	}
+	
+	#container article:hover{
+		background: #E4E0E0;
+	}
+
+	#container article p{
+		width: 90%;
+		margin: 0 auto;
+		text-align: justify;
+	}
+
+	#container article hgroup h1{
+		font-size: 1.5em;
+		text-align: center;
+		text-transform: uppercase;
+		width: 90%;
+		margin: 0.5em  auto 0;
+	}
+
+	#container article figure img{
+		width: 350px;
+		height: 234px;
+		margin-top: 1em;
+	}
+
+/*Design for the gale*/
+#galeria{
+	margin: auto;
+	width: 100%;
+}
+	#galeria figure{
+		margin: 0;
+	}
+		#galeria figure img{
+			width: 100%;
+			max-height: 600px;
+		}	
+
+
+
+
+
+
+
+
+/*clases*/
+.header_Principal{
+	width: 100%;
+	display: inline-block;
+	background: #f8f8f8;
+	position: relative;	
+	/*overflow: hidden;*/
+}
+		.header_Principal figure{
+			display: inline-block;
+			/*background: white;*/
+			height: 42px;
+		
+		}
+		.header_Principal figure a img{
+			width: 11.1em;
+			height: 42px;
+			line-height: 42px;
+			/*background: black;*/
+		}
+
+		.header_Principal hgroup{
+			display: inline-block;
+			/*background: green;*/
+			/*vertical-align: top;*/
+			/*float: right*/
+			position: absolute;
+			right:  0;
+			width: 14.5em;
+			display: none;
+		}
+		.header_Principal hgroup h1{
+			font-size: 2.8em;	
+			margin: 0 auto;
+			text-align: center;
+		}
+		.header_Principal hgroup h2{
+			text-align: center;
+			font-size: 0.9em;
+			margin: 0;
+			letter-spacing: 2px;
+		}
+
+.figure_wrapper img{
+	width: 350px;
+	min-height: 200px; 
+}
+
+/*NavBar bootstrap*/
+nav.navbar-default{
+	margin-bottom: 0;
+}
+
+/* Anima */
+.carga{
+	width: 100%;
+	height: 3px;
+	background: #E4DDDD;
+}
+.carga .relleno{
+	width: 100%;
+	height: 5px;
+	background: #E4DDDD;
+	animation: carga 5s infinite;
+	transition: 5s all ease;
+	width: 100%;
+}
+
+@keyframes carga{
+	0%{
+		background: #74BCE2;
+		width: 2%;
+	}
+	100%{
+		width: 100%;
+		background: #F97C07;
+	}
+}
+
+
+/*Estilos del Slider*/
+#slides{
+    display:none;
+}
+
+    /*si se utiliza*/
+    #slides{
+      display: none;
+      margin-bottom:20px;
+
+    }
+    .slides img{
+      width: 100%;
+      height: 44em;
+      min-height: 30em;
+
+      /*overflow: hidden;*/
+    }
+/*si se utiliza*/
+    .slidesjs-navigation {
+      margin-top:3px;
+    }
+/*si se utiliza*/
+    .slidesjs-previous {
+      margin-right: 5px;
+      float: left;
+    }
+/*si se utiliza posicionar el boton de next del slider*/
+    .slidesjs-next {
+      margin-right: 5px;
+      float: left;
+    }
+/*Acomoda los botones de paginacion*/
+    .slidesjs-pagination {
+      margin: 6px 0 0;
+      float: right;
+      list-style: none;
+    }
+/*Coloca los botones de paginacion uno al lado del otro*/
+    .slidesjs-pagination li {
+      float: left;
+      margin: 0 1px;
+    }
+/*cambia la numeracion por la imagen de circulos*/
+    .slidesjs-pagination li a {
+      display: block;
+      width: 13px;
+      height: 0;
+      padding-top: 13px;
+      background-image: url("../img/pagination.png");
+      background-position: 0 0;
+      float: left;
+      overflow: hidden;
+    }
+
+    .slidesjs-pagination li a.active,
+    .slidesjs-pagination li a:hover.active {
+      background-position: 0 -13px
+    }
+
+    .slidesjs-pagination li a:hover {
+      background-position: 0 -26px
+    }
+/*asigna el color gris a las flechas <> del slider*/
+    a:link,
+    a:visited {
+      color: #333;
+    }
+
+    a:hover,
+    a:active {
+      color: #9e2020;
+    }
+
+   /* .navbar {
+      overflow: hidden;
+    }*/
+/*Fin de los Estilos del Slider*/
+
+
+/*navbar de redes-sociales*/
+.navbar-social{
+	display: inline-block;
+	width: 9em;
+	position: fixed;
+	right: 0;
+	top: 150px;
+	z-index: 88;
+}
+	.navbar-social ul{
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+		.navbar-social ul li{
+			list-style: none;
+			width: 100%;
+			margin: 0 0.2em 0 1.2em;
+			transition: margin-left 0.6s ease;
+			font-size: 40px;
+			background: #6D7577;
+			padding: 0;
+			margin-top: 0;
+		}
+		.navbar-social ul li:hover{
+			margin-left: 0;
+			background: #C2D4D8;
+			box-sizing: border-box;
+		}
+			.navbar-social ul li a{
+				text-decoration: none;
+				padding: 0.2em;
+				padding-right: 0;
+				width: 100%;
+				text-align: left;	
+			}
+			.navbar-social ul li:hover a:hover{
+				color: white;
+				padding: 0.2em;
+				padding-right: 0;
+				box-sizing: border-box;
+				width: 100%;
+			}
+			.navbar-social ul li a.icon-facebook-sign:hover{
+				color: #34559C;
+			}
+			.navbar-social ul li a.icon-twitter-sign:hover{
+				color: #195961;
+			}
+			.navbar-social ul li a.icon-github:hover{
+				color: #000;
+			}
+			.navbar-social ul li a.icon-cloud-upload:hover{
+				color: #fff;
+			}
+
+/*Aside*/
+/*Modificacion de aside v.Desktop*/
+#articulos_Viejos{
+	/*background: yellow;*/
+	width: 24%;
+	display: inline-block;	
+	/*border-left: 4px solid #7D3838;*/
+	/*border-left: 3px solid #909090;*/
+	box-sizing: border-box;
+}
+
+#articulos_Viejos hgroup h2{
+	text-align: center;
+	font-size: 2.5em;
+    letter-spacing: 2px;
+    /*background: red;*/
+    margin-bottom: 0.5em;
+}
+#articulos_Viejos article{
+	border-left: 4px solid #2B437B;
+	/*border-top: 5px solid #7D3838;*/
+	margin: 0 auto;
+	/*background: green;*/
+	transition: 0.6s background ease-in;
+	box-sizing: border-box;
+	width: 100%;
+	padding-left: 1em;
+	min-height: 350px;
+}
+	#articulos_Viejos article:hover{
+	-webkit-box-sizing: border-box;
+		background: #CFE4CF;
+		border-left: 4px solid rgba(243, 105, 1, 0.91);
+	}
+
+#articulos_Viejos article span.span{
+	/*background: red;*/
+	width: 100%;
+	display: inline-block;
+	margin: 0px;
+}
+	#articulos_Viejos article  span.span a{
+		text-decoration: none;
+		background: rgba(255, 89, 23, 0.96);
+		width: 50%;
+		display: block;
+		padding: 0.6em;
+		color: #D9DED9;
+		text-align: center;
+		border-radius: 5px;
+		margin: 0 auto;
+		/*margin-bottom: 15px;*/
+		transition: 0.4s background ease-in;
+	}
+		#articulos_Viejos article span.span a:hover{
+			background: rgba(173, 58, 12, 0.96);
+			text-decoration: underline;
+		}
+
+#articulos_Viejos article hgroup h1{
+	text-align: center;
+	font-size: 1.6em;
+	letter-spacing: 1.8px;
+	text-shadow: 5px 5px 5px rgba(97, 97, 97, 0.92);
+	color: #544E4E;
+	margin-top: 0;
+}
+
+#articulos_Viejos article figure{
+	background: #045B7D;
+	width: 90%;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+	#articulos_Viejos article figure figcaption,
+	#articulos_Viejos article figure figcaption a{
+		color: #ffffff;
+	}
+#articulos_Viejos article figure img{
+	width: 10em;
+	height: 10em;
+	border-radius: 50%;	
+	transition: 1s transform ease;
+	/*animation: skew 3s infinite;*/
+  	/*animation-direction: alternate;*/
+
+}
+
+#articulos_Viejos article figure img:hover{
+	/*transform: rotate(360deg);*/
+	transform: scale(1.09);
+	/*transform: skew(20deg,-10deg);*/
+	box-shadow: 5px 5px 5px rgba(255,255,255,0.3);	
+}
+
+
+
+
+#allcomics{
+width: 100%;
+}
+
+section#comi{
+margin: 10px;
+}
+
+
+article#comics{
+width: 30%;
+display: inline-block;
+position: relative;
+margin: 10px;
+text-align: center;
+}
+
+#comics figure img{
+width: 150px;
+height: auto;
+margin: auto;
+}
+
+
+
+
+
+/*#articulos_Viejos article figure {
+	transition: 10s all ease;
+  	animation: back 10s infinite;
+  	animation-direction: alternate;
+}
+@keyframes back{
+	0%{
+		background: yellow;
+	}
+
+	30%{
+		background: red;
+	}
+	60%{
+		background: green;
+	}
+	100%{
+		background: blue;
+	}
+}*/
+
+/*@keyframes skew {
+  0% {
+    transform: rotate(50deg);
+  }
+  
+  100% {
+    transform: rotate(360deg);
+  }
+}*/
+
+/*Se agrego footer*/
+
+.img-back{
+	background: #2FAFE0;
+	width: 100%;
+}
+
+
+.img-back__figure{
+	width: 100%;
+	margin: 0 auto;
+	min-height: 400px;
+	background-image: url("../img/img-back.jpg");
+	background-attachment: fixed;
+}
+
+.img1-back{
+	background: #000;
+	width: 100%;
+}
+.img1-back__figure{
+	width: 100%;
+	margin: 0 auto;
+	min-height:550px;
+	opacity: 0.9;	
+	background-image: url("../include/img/6.jpg");
+	background-attachment: fixed;
+
+}
+
+footer{
+	background: black;
+	min-height: 300px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	overflow: hidden;
+	display: block;
+}
+
+footer .pub{
+	width: 100%;
+	margin-top: 1.5em;
+}
+
+footer .servicios, footer .categoria, footer .contacto{
+	width: 33%;
+	display: inline-block;
+	text-align: center;
+}
+
+footer .servicios ul , footer .categoria ul , footer .contacto ul {
+	list-style: none;
+	}
+
+
+footer .info{
+
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	width: 65%;
+}
+	footer .info p:nth-child(1){
+		margin-bottom: 0;
+		padding-bottom: 0;
+		font-size: 2em;
+	}
+
+	footer .info:last-child(){
+		margin-top: 0;
+		padding-top: 0;
+	}
+
+footer .image-mono{
+	
+	display: inline-block;
+	vertical-align: middle;
+	width: 30%;
+	text-align: center;
+	margin-right: 2%; 
+	margin-bottom: 1em;
+}
+	footer .image-mono__figure{
+		width: 50%;
+	}
+
+
+
+
+
+/*Medias queryes*/
+
+/*Movil*/
+@media  screen and (max-width: 766px){
+	header{
+		margin-bottom: 0px;
+	}
+	
+	#container{
+		width: 100%;
+		overflow: hidden;
+	}	
+	#ss{
+
+	display: inline-block;
+	width: 100%
+}
+#famoso .art {
+		
+		display: block;
+		width: 100%;
+	}
+#famoso {
+	width: 100%;
+	display: block;
+	
+}
+
+
+	#container .parrafo{
+		display: block;
+		width: 92%;
+		overflow: hidden;
+	}
+	.parrafo p{
+		text-align: justify;
+	}
+	.parrafo .figure_wrapper img{
+		width: 90%;
+		transition: 0.5s all ease;
+	}
+
+	.parrafo .figure_wrapper img:hover{
+		/*width: 100%;*/
+		transform: scaleX(1.2);
+		/*transform: skewX(-20deg);*/
+		/*transform: skewX(20deg);*/
+		/*transform: skew(20deg);*/
+	}
+ 
+	#articulos_Viejos {
+		overflow: hidden;
+		width: 100%;
+	}
+
+	.img-back{
+		display: none;
+
+	}
+
+	.img1-back{
+		display: none;
+	}
+#allcomics{
+		width: 100%;
+		overflow: hidden;
+	}	
+#allcomics #comics{
+		display: block;
+		width: 92%;
+		overflow: hidden;
+	}
+
+#DEPO #comics{
+		display: block;
+		width: 92%;
+		overflow: hidden;
+	}
+
+	.bodi .contenedoor {
+		display: block;
+		width: 92%;
+		overflow: hidden;
+	}
+
+ }
+
+
+
+
+
+/*Tablet*/
+@media screen and (min-width: 767px) and (max-width: 1023px){
+	#container{
+		width: 100%;
+		overflow: hidden;
+	}
+	#container article{
+		width: 46%;
+		overflow: hidden;
+		min-height: 550px;
+	}
+ 
+	#articulos_Viejos{
+		width: 100%;
+		/*background: red;*/
+	}
+
+	#articulos_Viejos article{
+		width: 32%;
+		overflow: hidden;
+		display: inline-block;
+		vertical-align: top;
+		/*max-height: 463px;*/
+	}
+
+	.img-back{
+		display: none;
+	}
+
+#allcomics{
+		width: 100%;
+		overflow: hidden;
+	}
+	#allcomics article{
+		width: 46%;
+		overflow: hidden;
+		min-height: 550px;
+	}
+}
+
+
+
+@media (max-width: 530px) {
+	#gale{
+display: none;
+
+}
+  #titulos .titu {
+	display: none;
+    }
+   #titulos  #titulo{
+    	display: block;
+    }
+
+    #titulo h1{
+	display: block;
+	text-align: center;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 51px;
+	text-shadow: 0px 0px 30px rgba(0, 0, 0, .8 );
+	font-weight: bold;
+	padding-top:1px; 
+  }
+
+}
+
+
+@media (max-width: 1070px) {
+
+#gale{
+width: 100%;
+}
+
+
+
+#gale #galeria{
+
+   
+}
+
+#gale #galeria #gale_principal{
+	width: 90%;
+	height: 435px;
+	overflow: hidden;
+	border-radius: 20px;
+	
+	margin: 25px auto;
+    box-shadow: 0px 5px 20px rgba(0,0,0,.8);
+}
+
+#galeria #gale_principal img{
+	width: 100%;
+	min-height: 535px;
+	margin: auto;
+
+
+}
+
+#gale #galeria #gale_miniatura3 {
+text-align: center;
+margin-top: 5px;
+display: block;
+
+}
+
+#gale #galeria #galeria_miniatura {
+	display: none;
+
+}
+#gale #galeria #galeria_miniatura1 {
+	display: none;
+}
+
+
+#galeria #galeria_miniatura3 {
+	display:block;
+
+}
+
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+	#container article:nth-child(even){
+		margin-right: -1.9px;
+	}
+	#container article:nth-child(odd){
+		margin-left: -1.9px;
+	}
+
+
+
+
+	#allcomics article:nth-child(even){
+		margin-right: -1.9px;
+	}
+	#allcomics article:nth-child(odd){
+		margin-left: -1.9px;
+	}
+}
+
+@media screen and (min-width: 1024px){
+	
+}

@@ -1,0 +1,126 @@
+#vida  h2{
+	text-align: center;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 80px;
+	text-shadow: 0px 0px 30px rgba(0, 0, 0, .8 );
+	font-weight: bold;
+	padding-top:5px; 
+
+}
+
+#fond{
+
+background: #000;
+
+}
+#fond #est{
+width: 100%;
+height: 350px;
+background-image: url(../include/img/estilo/ar.jpg);
+background-attachment: fixed;
+background-size: cover;
+opacity: 0.7;
+}
+
+
+#famoso article{
+width: 32%;
+text-align: center;
+display: inline-block;
+
+}
+#famoso .art img{
+width: 200px;
+
+margin: auto;
+}
+
+#famoso .art .ima {
+width: 200px;
+position: relative;
+text-align: center;
+border-radius: 50%;
+margin-left: auto;
+	margin-right: auto;
+	left:0;
+	right:0;
+}
+
+
+
+#famoso .art .ima  #dis{
+width: 200px;
+position: absolute;
+top: 0;
+margin-left: auto;
+margin-right: auto;
+	
+	left:0;
+	right:0;
+
+}
+
+#ss{
+	height: 350px;
+}
+
+#acerca  h2{
+	text-align: center;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 80px;
+	text-shadow: 0px 0px 30px rgba(0, 0, 0, .8 );
+	font-weight: bold;
+	padding-top:5px; 
+	overflow: hidden;
+
+}
+
+#a1{
+width: 100%;
+min-height: 1px;
+background: rgba(250, 88, 130, 0.71);
+margin-bottom: 50px;
+box-shadow: 0px 0px 30px rgba(0, 0, 0, .8 );
+overflow: hidden;
+}
+
+
+#tex{
+padding-top: 50px;
+	width: 70%;
+	margin: auto;
+	font-family:  monospace;
+	font-size: 25px;
+	text-align: center;
+}
+
+
+
+#a2{
+width: 100%;
+min-height: 1px;
+background: #58ACFA;
+margin-bottom: 50px;
+box-shadow: 0px 0px 30px rgba(0, 0, 0, .8 );
+}
+
+
+#a3{
+width: 100%;
+min-height: 1px;
+background: #D0FA58;
+margin-bottom: 50px;
+box-shadow: 0px 0px 30px rgba(0, 0, 0, .8 );
+}
+
+
+#fam p {
+	text-align: center;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 30px;
+	text-shadow: 0px 0px 30px rgba(0, 0, 0, .8 );
+	font-weight: bold;
+	padding-top:5px; 
+	background-color: black;
+
+}

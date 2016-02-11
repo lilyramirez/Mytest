@@ -1,0 +1,102 @@
+#conta h2{
+text-align: center;
+text-shadow: 0px 0px 10px rgba(0, 0, 0, .5 );
+margin-top: 50px;
+margin-bottom: 30px;
+}
+
+.forma{
+	width: 90%;
+	background: rgba(0, 0, 0, 0.1);
+	margin: auto;
+ 	margin-bottom: 20px;
+
+}
+
+.forma form{
+
+	width: 80%;
+	margin:auto;
+
+}
+
+
+.forma #nombre{
+	margin-top: 20px;
+	width: 60%;
+	padding: 10px;
+	margin-bottom: 10px;
+	font-size: 14px;
+		border-color: #d3d3d3;
+}
+
+.forma #email{
+	width: 70%;
+	padding: 10px;
+	margin-bottom: 10px;
+	font-size: 14px;
+		border-color: #d3d3d3;
+}
+
+.forma #descripcion{
+	width: 99%;
+	padding: 10px;
+	margin-bottom: 10px;
+	font-size: 14px;
+	height: 240px;
+	max-height: 240px;
+	max-width: 99%;
+	border-color: #d3d3d3;
+}
+
+
+.forma #enviar{
+	width: 150px;
+	padding: 10px;
+	margin-bottom: 10px;
+	font-size: 14px;
+	right: 0;
+    transition:0.4s background ease-in;
+	border-radius: 5px;
+}
+
+.forma #enviar:hover
+{
+	background: red;
+}
+
+
+.forma #nombre:focus,
+.forma #email:focus,
+.forma #descripcion:focus{
+background: #F5ECEC;
+	border-color: #d3d3d3;
+}
+
+section#bodi{
+background: url(../img/1.jpg);
+background-repeat: repeat;
+background-attachment: fixed;
+font-family: helvetica, arial, sans-serif;
+line-height: 20px;
+
+}
+
+.contenedoor{
+	background-color: rgba(0,0,0,0.4);
+	width: 60%;
+	margin:40px auto;
+	box-sizing:border-box; 
+}
+
+.contenedoor article{
+	padding: 2em;
+	font-size: 1.3em;
+	color: #fff;
+	font-weight: bold;
+	text-align: justify;
+}
+
+.contenedoor article h2{
+	text-align: center;
+}

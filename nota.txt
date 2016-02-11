@@ -1,0 +1,82 @@
+id
+->> Una sola etiqueta
+
+class
+->> Para varias etiquetas
+
+h1,h2,h3,h4,h5,h6
+->> Títulos
+
+Para poder agrupar títulos 
+->> hgroup
+
+
+*** CSS   ***
+
+Como se trabaja en el CSS
+
+nombre_Selector{
+	propiedad: valor
+}
+
+Ejemplo:
+h1{
+	color: red;
+}
+
+Propiedad para poder cambiar el color de fondo
+->> background :  red
+				  olive
+				  blue
+				  #EAEAEA
+				  rgb(255,255,255)
+
+Para aliniar el texto al centro
+->> text-align: center
+				left
+				right
+
+Los id 
+	->Son unicos e irrepetibles
+	->En el css se representa con #
+
+Las clases
+	->Se puedem repetir multiples veces
+	->En el css se representa con .
+
+Para modifica el ancho de una etiqueta utilizamos:
+	->> width : pixeles
+			width: 50px
+
+Para poder controlar el margen externo
+	->>margin: 
+
+
+Links:
+git checkout master
+git add all
+
+http://rogerdudler.github.io/git-guide/index.es.html
+https://git-scm.com/book/es/v1/Fundamentos-de-Git-Trabajando-con-repositorios-remotos
+https://git-scm.com/book/es/v1/Fundamentos-de-Git-Obteniendo-un-repositorio-Git
+https://dreyacosta.com/comandos-basicos-para-manejarse-con-git-y-github/
+http://www.edy.es/dev/docs/git-guia-rapida/
+https://desktop.github.com/
+
+developer tools
+http://leaverou.github.io/prefixfree/
+https://necolas.github.io/normalize.css/
+
+
+elementos inline
+http://www.psdahtmlpasoapaso.com/blog/los-elementos-block-y-elementos-inline-fundamental
+
+Noticias
+	Recientes
+	Antiguas
+
+Deportes
+
+Vida y Estilo
+
+Comics

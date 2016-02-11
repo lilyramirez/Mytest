@@ -1,0 +1,189 @@
+/*! http://responsiveslides.com v1.54 by @viljamis */
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+
+
+
+
+
+
+  div#down {
+  width: 100%;
+  margin: auto;
+
+}
+
+
+
+
+#down .titulos-wrap{
+  text-align:center;
+  padding: 20px;
+}
+
+#down  h2 p{
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Amaranth', sans-serif; 
+  font-size: 1.2em;
+  margin-top: 40px;
+  color: #000;
+}
+#down  h4 a{
+  text-align: center;
+  font-weight: bold;
+  color: #3C3C3C;
+  font-family: 'Amaranth', sans-serif; 
+  font-size: 2em;
+  text-decoration: none;
+  text-transform: none;
+  margin-top: 20px;
+}
+#down  h4 a:hover{
+color: #D01515;
+box-shadow:0 -50px 0 #2D2D2D inset ;
+text-transform:none;
+text-decoration: none;
+padding: 0;
+margin: 0;
+
+}
+
+
+
+ #quad{
+width: 100%;
+background-image: url("../img/fon4.jpg");
+background-attachment: fixed;
+height: 100%;
+background-size: 100%;
+background-repeat: no-repeat;
+}
+ #quad img{
+  margin-top: 0px;
+  width:90%;
+  height:auto;
+  margin: 1px;
+
+}
+
+
+ #black{
+margin-top: 4px;
+width: 100%;
+background-image: url("../img/fon1.jpg");
+background-attachment: fixed;
+height: 100%;
+background-size: 100%;
+background-repeat: no-repeat;
+}
+
+ #black img{
+  margin-top: 0px;
+  width:90%;
+  height:auto;
+  margin: 1px;
+
+}
+
+ #aimy6{
+margin-top: 4px;
+width: 100%;
+background-image: url("../img/font22.jpg");
+background-attachment: fixed;
+height: 100%;
+background-size: 100%;
+background-repeat: no-repeat;
+}
+ #aimy6 img{
+  margin-top: 0px;
+  width:90%;
+  height:auto;
+  margin: 1px;
+
+}
+
+
+section#downmov {
+  width: 100%;
+  margin: auto;
+
+}
+
+section .font{
+width: 100%;
+height: 100%;
+background: white;
+margin-top: 10px;
+}
+
+section .font2{
+  margin-top: 20px;
+  margin-bottom: 20px;
+width: 100%;
+height: 100%;
+background: #D5D5D5;
+}
+ #downmov img{
+height:140px;
+
+
+}
+
+#downmov .titul  p{
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Amaranth', sans-serif; 
+  font-size: 1.4em;
+  margin-top: 40px;
+  color: #000;
+}
+#downmov   a{
+  text-align: center;
+  font-weight: bold;
+  color: #3C3C3C;
+  font-family: 'Amaranth', sans-serif; 
+  font-size: 2em;
+  text-decoration: none;
+  text-transform: none;
+  margin-top: 20px;
+}
+#downmov   a:hover{
+color: #D01515;
+box-shadow:0 -50px 0 #2D2D2D inset ;
+text-transform:none;
+text-decoration: none;
+
+}
+
+
